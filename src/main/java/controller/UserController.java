@@ -47,6 +47,9 @@ public class UserController extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //насстройка русских букв
+
+
         User user = new User();
         user.setFirstName(req.getParameter("firstname"));
         user.setEmail(req.getParameter("email"));
