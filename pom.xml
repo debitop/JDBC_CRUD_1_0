@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>2018_02_04_CRUD</groupId>
-    <artifactId>2018_02_04_CRUD</artifactId>
+    <groupId>JDBC_CRUD_1_0</groupId>
+    <artifactId>JDBC_CRUD_1_0</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
