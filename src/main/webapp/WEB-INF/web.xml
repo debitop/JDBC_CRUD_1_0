@@ -4,6 +4,28 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
+    <!--CharsetFilter start-->
+
+    <filter>
+        <filter-name>Charset Filter</filter-name>
+        <filter-class>controller.CharsetFilter</filter-class>
+        <!--   <init-param requestEncoding='Cp1251'/>      -->
+        <init-param>
+            <param-name>requestEncoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+
+    </filter>
+
+    <filter-mapping>
+        <filter-name>Charset Filter</filter-name>
+        <!--url-pattern>/CharsetFilter</url-pattern-->
+        <url-pattern>/*</url-pattern>
+
+    </filter-mapping>
+
+    <!--CharsetFilter end-->
+
     <servlet>
         <servlet-name>userController</servlet-name>
         <servlet-class>controller.UserController</servlet-class>
