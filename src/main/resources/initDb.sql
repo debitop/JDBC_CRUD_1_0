@@ -7,7 +7,7 @@ CREATE SEQUENCE global_seq
 CREATE TABLE users (
   id         INTEGER PRIMARY KEY DEFAULT nextval('global_seq'),
   firstName  VARCHAR NOT NULL,
-  secondName VARCHAR NOT NULL,
+  lastName VARCHAR NOT NULL,
   email      VARCHAR NOT NULL,
   dob        DATE
 )

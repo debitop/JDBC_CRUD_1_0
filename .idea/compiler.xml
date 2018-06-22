@@ -6,13 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="2018_02_04_CRUD" />
         <module name="JDBC_CRUD_1_0" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="2018_02_04_CRUD" target="1.6" />
-      <module name="JDBC_CRUD_1_0" target="1.6" />
-    </bytecodeTargetLevel>
   </component>
 </project>
